@@ -92,3 +92,52 @@ border-bottom: 3px solid yellow;
     border: none;
     height: 370px;
 }
+.second-image{
+    width: 80px;
+    height: auto;
+}
+#package{
+    font-size: 20px;
+    font-weight: 400;
+    color:#191919 ;
+}
+#secondimg-button{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #191919 ;
+    font-weight: 600;
+    border: 0px solid #ffffff;
+    background-color: #ffd801;
+}
+#second-middle{
+    padding-top: 50px;
+    height: 190px;
+    background-color: white;
+font-size: 30px;
+line-height: 40px;
+font-weight: 600;
+text-align: center; 
+}
+#paragliding{
+    
+    height: 300px;
+}
+#cards{
+    border: none;
+    border-radius: 0;
+}
+#cards2{
+     border: none;
+    border-radius: 0;
+}
+#maldives{
+    height: 300px;
+}
+#Footer{
+    background-color: black;
+   
+}
+.footer-img{
+    width: 135px;
+    height: auto;
+}
