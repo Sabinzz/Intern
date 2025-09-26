@@ -11,7 +11,7 @@
 
     
   </head>
-  <body class="bg-light-custom ">
+  <body class="bg-light-custom">
    <style>
     .font-lora {
   font-family: 'Lora', serif !important;
@@ -102,32 +102,15 @@
    </div>
  <!-- Blog -->
   <div class="container">
-  <div class="card flex-md-row mb-0 box-shadow h-md-250 rounded-0" id="blog">
-     <img class="card-img-left flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 290px; height: auto;" src="Australia.png" data-holder-rendered="true">
-            <div class="card-body d-flex flex-column align-items-start" id="blog-text">
-             <h1>Melbourne Explore Post Tour Holiday</h1>
-             <p class="blog-para">Lorem Ipsum is simply dummy text dummy text of the.</p>
-<div>
-<img src="camera.png" alt=""  class="blog-images">
-<img src="fork.png" alt=""  class="blog-images">
-<img src="landscape.png" alt=""  class="blog-images">
-<img src="star.png" alt=""  class="blog-images">
-<img src="cash.png" alt=""  class="blog-images">
-</div>
-<div class="blog-lastpart">
-
-    <h1>$750</h1>
-    <button class="blog-button my-1">Book now</button>
-</div>
-            </div>
-           
-          </div>
-         
-  <div class="card flex-md-row mb-0 box-shadow h-md-250 rounded-0 pt-5" id="blog2">
-
-            <div class="card-body d-flex flex-column align-items-start" id="blog-text">
-             <h1>Glimpses Of South Africa With Lion</h1>
-             <p class="blog-para">Lorem Ipsum is simply dummy text dummy text of the.</p>
+ <div class="card" style="max-width: 100%; border: none; ">
+  <div class="row g-0">
+    <div class="col-md-5">
+      <img src="Australia.png" class="img-fluid rounded-none" alt="..."  id="australia">
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+        <h3 class="card-title">Melbourne Explore Post Tour Holiday</h3>
+        <p class="card-text">Lorem Ipsum is simply dummy text dummy text of the.</p>
 <div>
 <img src="camera.png" alt=""  class="blog-images">
 <img src="fork.png" alt=""  class="blog-images">
@@ -138,13 +121,44 @@
 <div class="blog-lastpart">
 
     <h1>$890</h1>
-    <button class="blog-button my-2">Book now</button>
+    <button class="blog-button ">Book now</button>
 </div>
-            </div>
-                 <img class="card-img-left flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 290px; height: auto;" src="SouthAfrica.png" data-holder-rendered="true">
-           
-          </div>
-          </div>
+      </div>
+    </div>
+  </div>
+</div>     
+  <div class="card" style=" border: none; padding-top: 50px; padding-bottom: 60px;">
+  <div class="row g-0">
+
+    <div class="col-md-7 order-2 order-md-1">
+      <div class="card-body" id="southafrica-card-body">
+        <h3 class="card-title">Glimpses Of South Africa With Lion</h3>
+        <p class="card-text">Lorem Ipsum is simply dummy text dummy text of the.</p>
+
+        <div>
+          <img src="camera.png" alt="" class="blog-images">
+          <img src="fork.png" alt="" class="blog-images">
+          <img src="landscape.png" alt="" class="blog-images">
+          <img src="star.png" alt="" class="blog-images">
+          <img src="cash.png" alt="" class="blog-images">
+        </div>
+
+        <div class="blog-lastpart">
+          <h1>$890</h1>
+          <button class="blog-button">Book now</button>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="col-md-5 order-1 order-md-2">
+      <img src="SouthAfrica.png" class="img-fluid rounded-none" alt="..." style="height: auto; width: 100%;" id="southafrica">
+    </div>
+  </div>
+</div>
+
+</div>
+          
           <!-- Second Image -->
            <div class="container position-relative text-center w-lg-9">
              <img src="cta@bg-8.png" class="img-fluid w-100" alt="Responsive image">
@@ -172,110 +186,204 @@ of the printing and typeset.</p>
   </div>
    </div>
    <!-- cards -->
-    <div class="container d-flex">
-    <div class="card ps-5" style="width: 21rem;" id="cards">
-  <img class="card-img-top " src="paraglidiing.png" alt="Card image cap" id="paragliding">
-  <div class="card-body">
-    <h2>Dubai - Skydive</h2>
-    <p class="card-text text-secondary">Lorem Ipsum is simply dummy simply text of the.</p>
-<h1>$450</h1>
- <button class="blog-button my-1">Book now</button>
+   <div class="container d-flex w-100">
+  
+  <div class="card flex-fill" id="border-card">
+    <img class="card-img-top rounded-none" src="paraglidiing.png" alt="Card image cap" id="paragliding">
+    <div class="card-body">
+      <h2>Dubai - Skydive</h2>
+      <p class="card-text text-secondary">
+        Lorem Ipsum is simply dummy simply text of the.
+      </p>
+      <h1>$450</h1>
+      <button class="blog-button my-1">Book now</button>
+    </div>
   </div>
-</div>
-    <div class="card ps-5 pe-5" style="width: 23rem;" id="cards2">
-  <img class="card-img-top " src="maldives.png" alt="Card image cap" id="maldives">
-  <div class="card-body">
-  <h2>Maldives - Island</h2>
-    <p class="card-text text-secondary">Lorem Ipsum is simply dummy simply text of the.</p>
-<h1>$750</h1>
- <button class="blog-button my-1">Book now</button>
-  </div>
-</div>
 
-</div>
-    <div class="container d-flex" id="second-card">
-    <div class="card ps-5" style="width: 21rem;" id="cards">
-  <img class="card-img-top " src="india.png" alt="Card image cap" id="paragliding">
-  <div class="card-body">
-    <h2>Dubai - Skydive</h2>
-    <p class="card-text text-secondary">Lorem Ipsum is simply dummy simply text of the.</p>
-<h1>$450</h1>
- <button class="blog-button my-1">Book now</button>
+  
+  <div class="card flex-fill">
+    <img class="card-img-top" src="maldives.png" alt="Card image cap" id="maldives">
+    <div class="card-body">
+      <h2>Maldives - Island</h2>
+      <p class="card-text text-secondary">
+        Lorem Ipsum is simply dummy simply text of the.
+      </p>
+      <h1>$750</h1>
+      <button class="blog-button my-1">Book now</button>
+    </div>
   </div>
 </div>
 
+   <div class="container d-flex w-100" id="second-card">
+  
+  <div class="card flex-fill">
+    <img class="card-img-top" src="india.png" alt="Card image cap" id="paragliding">
+    <div class="card-body">
+      <h2>India - Exotic</h2>
+      <p class="card-text text-secondary">
+        Lorem Ipsum is simply dummy simply text of the.
+      </p>
+      <h1>$299</h1>
+      <button class="blog-button my-1">Book now</button>
+    </div>
+  </div>
 
-
-    <div class="card ps-5 pe-5" style="width: 23rem;" id="cards2">
-  <img class="card-img-top " src="park.png" alt="Card image cap" id="maldives">
-  <div class="card-body">
-  <h2>Maldives - Island</h2>
-    <p class="card-text text-secondary">Lorem Ipsum is simply dummy simply text of the.</p>
-<h1>$750</h1>
- <button class="blog-button my-1">Book now</button>
+  <div class="card flex-fill">
+    <img class="card-img-top" src="park.png" alt="Card image cap" id="maldives">
+    <div class="card-body">
+      <h2>Grand Park - Villas</h2>
+      <p class="card-text text-secondary">
+        Lorem Ipsum is simply dummy simply text of the.
+      </p>
+      <h1>$199</h1>
+      <button class="blog-button my-1">Book now</button>
+    </div>
   </div>
 </div>
 
-</div>
 <!-- Footer -->
-<div class="container bg-dark" id="Footer">
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top text-white ms-3"> 
-    <div class="col mb-3"> 
-      <div class="d-flex align-items-center mb-3 text-white" aria-label="Bootstrap"> 
-        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-          <use xlink:href="#bootstrap"></use>
-        </svg> 
-      </div> 
-      <div>
-        <img src="First.png" alt="" class="footer-img">
-<p class="mb-0">65 E.Forest Hills,
-  <br>
-  New York 11209
-</p>
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: black"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img src="First.png " alt="" class="footer-img" >
+            <div class="mt-5" id="footer-text">
 
-      </div>
-    </div> 
-    
-    <div class="col mb-3"></div> 
-    
-    <div class="col mb-3"> 
-      <h5>Contact Info</h5> 
-    <ul class="nav flex-column"> 
-  <li class="nav-item">
-    <p class="mb-0">Call us:</p>
-    <p class="mb-0">+01(234) 567-891</p>
-  </li> 
-  <li class="nav-item">
-    <p class="mb-0">Email us:</p>
-    <p class="mb-0">support@maool.com</p>
-  </li>  
-</ul>
+              <h6 >65 E.Forest Hills,</h6>
+              <h6>New York 11209</h6>
+            </div>
+          </div>
+          <!-- Grid column -->
+<!-- 
+          <hr class="w-100 clearfix d-md-none" /> -->
 
-    </div> 
-    
-    <div class="col mb-3 ms-4"> 
-      <h5>More Links</h5> 
-      <ul class="nav flex-column"> 
-        <li class="nav-item mb-2"><p class="mb-0">Help Center</p></li> 
-        <li class="nav-item mb-2"><p class="mb-0">My Account</p></li> 
-        <li class="nav-item mb-2"><p class="mb-0">Contact</p></li> 
-        <li class="nav-item mb-2"><p class="mb-0">Privacy</p></li>  
-      </ul> 
-    </div> 
-   
-    <div class="line"></div>
-  <div class="w-100 d-flex justify-content-between mt-3" id="Last-part">
-    <div>
-      <i class="fa-brands fa-facebook social-icon"></i>
-      <i class="fa-brands fa-instagram social-icon"></i>
-      <i class="fa-brands fa-linkedin-in social-icon"></i>
-      <i class="fa-brands fa-twitter social-icon"></i>
+          <!-- Grid column -->
+          <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a class="text-white">Bootstrap Angular</a>
+            </p>
+          </div> -->
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              More links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Help Center</a>
+            </p>
+            <p>
+              <a class="text-white">Contact</a>
+            </p>
+            <p>
+              <a class="text-white">Privacy</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i>support@maool.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
     </div>
-    <div>
-      <p class="pe-5">@2021 Maool Inc.</p>
-    </div>
-  </div>
+    <!-- Grid container -->
   </footer>
+  <!-- Footer -->
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
